@@ -167,7 +167,9 @@ Route::group([
     //     return redirect()->route('url.name');
     // }); 
 
-
+    Route::get('/contrato', function () {
+        return 'Contrato';
+    });
 
 
 
