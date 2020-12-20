@@ -163,7 +163,9 @@ Route::group([
         })->name('home');
     });
 
-
+    // Route::get('redirect5', function () {
+    //     return redirect()->route('url.name');
+    // }); 
 
 
 
